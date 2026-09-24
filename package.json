@@ -1,0 +1,17 @@
+{
+  "name": "n8n-sdd",
+  "private": true,
+  "type": "module",
+  "description": "Spec-driven development для воркфлоу n8n: спеки в OpenSpec, воркфлоу в workflows/",
+  "scripts": {
+    "openspec": "openspec",
+    "export": "node scripts/export-workflow.mjs",
+    "import": "node scripts/import-workflow.mjs",
+    "normalize": "node scripts/normalize-workflow.mjs",
+    "check": "node scripts/check-workflow.mjs",
+    "validate": "openspec validate --all --strict"
+  },
+  "devDependencies": {
+    "@fission-ai/openspec": "1.13.0"
+  }
+}
