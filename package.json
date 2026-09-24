@@ -2,7 +2,7 @@
   "name": "n8n-sdd",
   "private": true,
   "type": "module",
-  "description": "Spec-driven development для воркфлоу n8n: спеки в OpenSpec, воркфлоу в workflows/",
+  "description": "Шаблон: spec-driven development для воркфлоу n8n, спеки в OpenSpec, воркфлоу в workflows/",
   "scripts": {
     "openspec": "openspec",
     "export": "node scripts/export-workflow.mjs",
